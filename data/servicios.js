@@ -1,0 +1,50 @@
+export const SERVICIOS = [
+  {
+    id: 'paisajismo',
+    titulo: 'Paisajismo',
+    descripcion: 'Habilitación de jardinería, diseño de paisajes y colocación de pasto natural.',
+    bgIcono: 'bg-emerald-100',
+    textIcono: 'text-emerald-600',
+    icono: '/icons/PaisajismoIcon.svg',
+  },
+  {
+    id: 'fumigacion',
+    titulo: 'Fumigación Especializada',
+    descripcion: 'Control de plagas efectivo y seguro para casa habitación y áreas de jardín.',
+    bgIcono: 'bg-blue-100',
+    textIcono: 'text-blue-600',
+    icono: '/icons/FumigacionIcon.svg',
+  },
+  {
+    id: 'albanileria',
+    titulo: 'Albañilería y Banquetas',
+    descripcion: 'Construcción y reparación de banquetas, firmes y detalles de albañilería.',
+    bgIcono: 'bg-orange-100',
+    textIcono: 'text-orange-700',
+    icono: '/icons/AlbanileriaIcon.svg',
+  },
+  {
+    id: 'pintura',
+    titulo: 'Pintura Vinílica',
+    descripcion: 'Aplicación profesional de pintura para interiores y exteriores.',
+    bgIcono: 'bg-pink-100',
+    textIcono: 'text-pink-600',
+    icono: '/icons/PinturaIcon.svg',
+  },
+  {
+    id: 'herreria',
+    titulo: 'Herrería y Portones',
+    descripcion: 'Fabricación e instalación de puertas, portones y protecciones a la medida.',
+    bgIcono: 'bg-yellow-100',
+    textIcono: 'text-yellow-600',
+    icono: '/icons/HerreriaIcon.svg',
+  },
+  {
+    id: 'pasto-sintetico',
+    titulo: 'Pasto Sintético',
+    descripcion: 'Instalación de pasto artificial de alta calidad, ideal para bajo mantenimiento.',
+    bgIcono: 'bg-emerald-100',
+    textIcono: 'text-emerald-600',
+    icono: '/icons/PastoSinteticoIcon.svg',
+  }
+];
