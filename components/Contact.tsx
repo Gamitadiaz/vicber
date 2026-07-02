@@ -24,7 +24,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contacto" className="py-20 bg-white px-4">
+    <section id="contacto" className="py-20 bg-slate-300 px-4">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Cotiza tu Proyecto</h2>

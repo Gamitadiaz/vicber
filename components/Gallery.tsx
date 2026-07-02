@@ -21,8 +21,28 @@ const SERVICIOS_DATA = [
     portada: '/proyectos/paisajismo/1.jpeg', // <- Cambia '1.jpg' por el nombre real de tu foto
     tipoPortada: 'imagen',
     galeria: [
-      { tipo: 'imagen', src: '/proyectos/paisajismo/1.jpeg' }, // <- Igual aquí
-      { tipo: 'imagen', src: '/proyectos/paisajismo/2.jpeg' }
+      { tipo: 'imagen', src: '/proyectos/paisajismo/1.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/2.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/3.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/4.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/5.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/6.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/7.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/8.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/9.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/10.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/11.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/12.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/13.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/14.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/15.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/16.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/17.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/18.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/19.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/20.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/21.jpeg' }, 
+      { tipo: 'imagen', src: '/proyectos/paisajismo/22.jpeg' },
     ]
   },
   {
@@ -30,7 +50,15 @@ const SERVICIOS_DATA = [
     portada: '/proyectos/pintura/1.jpeg', // <- Cambia por el nombre real
     tipoPortada: 'imagen',
     galeria: [
-      { tipo: 'imagen', src: '/proyectos/pintura/1.jpeg' }
+      { tipo: 'imagen', src: '/proyectos/pintura/1.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/2.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/3.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/4.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/5.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/6.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/7.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/8.jpeg' },
+
     ]
   },
   {
@@ -38,7 +66,12 @@ const SERVICIOS_DATA = [
     portada: '/proyectos/pasto-sintetico/1.jpeg', // <- Cambia por el nombre real
     tipoPortada: 'imagen',
     galeria: [
-      { tipo: 'imagen', src: '/proyectos/pasto-sintetico/1.jpeg' }
+      { tipo: 'imagen', src: '/proyectos/pasto-sintetico/1.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-sintetico/2.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-sintetico/3.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-sintetico/4.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-sintetico/5.jpeg' },
+
     ]
   }
 ];

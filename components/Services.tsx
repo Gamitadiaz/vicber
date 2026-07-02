@@ -4,7 +4,7 @@ import { SERVICIOS } from '../data/servicios';
 
 export default function Services() {
   return (
-    <section className="py-20 bg-slate-50 px-4">
+    <section className="py-20 bg-slate-300 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Nuestros Servicios</h2>
