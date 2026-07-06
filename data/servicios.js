@@ -8,6 +8,14 @@ export const SERVICIOS = [
     icono: '/icons/PaisajismoIcon.svg',
   },
   {
+    id: 'poda',
+    titulo: 'Poda de Árboles y palmeras',
+    descripcion: 'Servicio profesional de poda para mantener la salud y apariencia de los árboles.',
+    bgIcono: 'bg-emerald-100',
+    textIcono: 'text-emerald-600',
+    icono: '/icons/PodaIcon.svg',
+  },
+  {
     id: 'fumigacion',
     titulo: 'Fumigación Especializada',
     descripcion: 'Control de plagas efectivo y seguro para casa habitación y áreas de jardín.',
@@ -17,7 +25,7 @@ export const SERVICIOS = [
   },
   {
     id: 'albanileria',
-    titulo: 'Albañilería y Banquetas',
+    titulo: 'Albañilería',
     descripcion: 'Construcción y reparación de banquetas, firmes y detalles de albañilería.',
     bgIcono: 'bg-orange-100',
     textIcono: 'text-orange-700',
@@ -33,7 +41,7 @@ export const SERVICIOS = [
   },
   {
     id: 'herreria',
-    titulo: 'Herrería y Portones',
+    titulo: 'Herrería',
     descripcion: 'Fabricación e instalación de puertas, portones y protecciones a la medida.',
     bgIcono: 'bg-yellow-100',
     textIcono: 'text-yellow-600',
@@ -46,5 +54,13 @@ export const SERVICIOS = [
     bgIcono: 'bg-emerald-100',
     textIcono: 'text-emerald-600',
     icono: '/icons/PastoSinteticoIcon.svg',
+  },
+  {
+    id: 'pasto-natural',
+    titulo: 'Pasto Natural',
+    descripcion: 'Instalación y mantenimiento de pasto natural, ideal para áreas verdes y jardines.',
+    bgIcono: 'bg-blue-100',
+    textIcono: 'text-blue-600',
+    icono: '/icons/PastoNaturalIcon.svg',
   }
 ];

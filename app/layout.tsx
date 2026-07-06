@@ -27,7 +27,15 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">{children}
+      <a 
+        href="https://wa.me/524424469991?text=Hola, vengo de su página web." 
+        target="_blank"
+        className="fixed bottom-6 right-6 z-50 bg-emerald-500 p-4 rounded-full shadow-xl hover:scale-110 transition-transform animate-bounce"
+      >
+        <img src="/icons/WhatsappIcon.svg" className="w-8 h-8" />
+      </a></body>
+      
     </html>
   );
 }

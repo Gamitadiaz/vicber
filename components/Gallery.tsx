@@ -36,13 +36,7 @@ const SERVICIOS_DATA = [
       { tipo: 'imagen', src: '/proyectos/paisajismo/13.jpeg' }, 
       { tipo: 'imagen', src: '/proyectos/paisajismo/14.jpeg' },
       { tipo: 'imagen', src: '/proyectos/paisajismo/15.jpeg' },
-      { tipo: 'imagen', src: '/proyectos/paisajismo/16.jpeg' }, 
-      { tipo: 'imagen', src: '/proyectos/paisajismo/17.jpeg' },
-      { tipo: 'imagen', src: '/proyectos/paisajismo/18.jpeg' }, 
-      { tipo: 'imagen', src: '/proyectos/paisajismo/19.jpeg' },
-      { tipo: 'imagen', src: '/proyectos/paisajismo/20.jpeg' },
-      { tipo: 'imagen', src: '/proyectos/paisajismo/21.jpeg' }, 
-      { tipo: 'imagen', src: '/proyectos/paisajismo/22.jpeg' },
+      
     ]
   },
   {
@@ -72,6 +66,63 @@ const SERVICIOS_DATA = [
       { tipo: 'imagen', src: '/proyectos/pasto-sintetico/4.jpeg' },
       { tipo: 'imagen', src: '/proyectos/pasto-sintetico/5.jpeg' },
 
+    ]
+  },
+  {
+    categoria: 'Pasto Natural',
+    portada: '/proyectos/pasto-natural/1.jpeg', // <- Cambia por el nombre real
+    tipoPortada: 'imagen',
+    galeria: [
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/1.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/2.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/3.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/4.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/5.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/6.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/7.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/8.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/9.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/10.jpeg' },
+
+    ]
+  },
+  {
+    categoria: 'Poda',
+    portada: '/proyectos/poda/1.jpeg', // <- Cambia por el nombre real
+    tipoPortada: 'imagen',
+    galeria: [
+      { tipo: 'imagen', src: '/proyectos/poda/1.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/poda/2.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/poda/3.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/poda/4.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/poda/5.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/poda/6.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/poda/7.jpeg' },
+
+    ]
+  },
+  {
+    categoria: 'Herrería',
+    portada: '/proyectos/herreria/1.jpeg', // <- Cambia por el nombre real
+    tipoPortada: 'imagen',
+    galeria: [
+      
+    ]
+  },
+  {
+    categoria: 'Albañilería',
+    portada: '/proyectos/albanileria/1.jpeg', // <- Cambia por el nombre real
+    tipoPortada: 'imagen',
+    galeria: [
+      
+    ]
+  },
+  {
+    categoria: 'Fumigación',
+    portada: '/proyectos/fumigacion/1.jpeg', // <- Cambia por el nombre real
+    tipoPortada: 'imagen',
+    galeria: [
+      
     ]
   }
 ];
