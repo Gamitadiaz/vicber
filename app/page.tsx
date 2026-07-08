@@ -3,6 +3,8 @@ import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Gallery from "../components/Gallery";
 import Contact from "../components/Contact";
+import NaturalGrass from "@/components/NaturalGrass";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -33,7 +35,8 @@ export default function Home() {
       <div className="pt-28">
         <Services />
         <Hero />
-        
+        <About /> 
+        <NaturalGrass /> 
         <Gallery />
         <Contact />
       </div>

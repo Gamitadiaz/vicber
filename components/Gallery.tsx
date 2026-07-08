@@ -106,7 +106,17 @@ const SERVICIOS_DATA = [
     portada: '/proyectos/herreria/1.jpeg', // <- Cambia por el nombre real
     tipoPortada: 'imagen',
     galeria: [
-      
+      { tipo: 'imagen', src: '/proyectos/herreria/1.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/2.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/3.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/4.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/5.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/6.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/7.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/8.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/9.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/10.jpeg' },
+
     ]
   },
   {
