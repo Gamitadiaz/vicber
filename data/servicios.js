@@ -62,5 +62,37 @@ export const SERVICIOS = [
     bgIcono: 'bg-blue-100',
     textIcono: 'text-blue-600',
     icono: '/icons/PastoNaturalIcon.svg',
+  },
+  {
+    id: 'impermeabilizacion-general',
+    titulo: 'Impermeabilización',
+    descripcion: 'Protección total contra humedad, goteras y filtraciones para losas y muros exteriores.',
+    bgIcono: 'bg-blue-100',
+    textIcono: 'text-blue-600',
+    icono: '/icons/ImpermeabilizacionIcon.svg' // Recuerda agregar este SVG a tu carpeta public/icons
+  },
+  /*{
+    id: 'impermeabilizacion-cimentacion',
+    titulo: 'Impermeabilización de Cimentación',
+    descripcion: 'Barreras protectoras especializadas desde la base de tu construcción para evitar humedad por capilaridad.',
+    bgIcono: 'bg-slate-200', // Un tono más de "construcción"
+    textIcono: 'text-slate-700',
+    icono: '/icons/CimentacionIcon.svg'
+  },*/
+  {
+    id: 'sistema-riego',
+    titulo: 'Sistemas de Riego Automatizado',
+    descripcion: 'Instalación de riego por aspersión y goteo para mantener tus áreas verdes siempre vivas optimizando el uso de agua.',
+    bgIcono: 'bg-cyan-100',
+    textIcono: 'text-cyan-600',
+    icono: '/icons/RiegoIcon.svg'
+  },
+  {
+    id: 'limpieza-terrenos',
+    titulo: 'Limpieza de Terrenos',
+    descripcion: 'Servicio profesional de limpieza de áreas exteriores, eliminando malezas y manteniendo un entorno agradable.',
+    bgIcono: 'bg-green-100',
+    textIcono: 'text-green-600',
+    icono: '/icons/LimpiezaIcon.svg'
   }
 ];

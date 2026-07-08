@@ -134,6 +134,35 @@ const SERVICIOS_DATA = [
     galeria: [
       
     ]
+  },
+  {
+    categoria: 'Impermeabilización',
+    portada: '/proyectos/impermeabilizacion/1.jpeg', // <- Cambia por el nombre real
+    tipoPortada: 'imagen',
+    galeria: [
+      
+    ]
+  },
+  {
+    categoria: 'Limpieza de Terrenos',
+    portada: '/proyectos/limpieza-terrenos/1.jpeg', // <- Cambia por el nombre real
+    tipoPortada: 'imagen',
+    galeria: [
+      { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/1.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/2.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/3.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/4.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/5.jpeg' },
+
+    ]
+  },
+  {
+    categoria: 'Sistema de Riego',
+    portada: '/proyectos/riego/1.jpeg', // <- Cambia por el nombre real
+    tipoPortada: 'imagen',
+    galeria: [
+      
+    ]
   }
 ];
 
