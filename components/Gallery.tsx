@@ -136,7 +136,7 @@ const SERVICIOS_DATA = [
   },
   {
     categoria: 'Albañilería',
-    portada: '/proyectos/albanileria/1.jpeg', // <- Cambia por el nombre real
+    portada: '/proyectos/albanileria/1.jpg', // <- Cambia por el nombre real
     tipoPortada: 'imagen',
     galeria: [
       { tipo: 'imagen', src: '/proyectos/albanileria/1.jpg' },
