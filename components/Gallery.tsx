@@ -36,6 +36,7 @@ const SERVICIOS_DATA = [
       { tipo: 'imagen', src: '/proyectos/paisajismo/13.jpeg' }, 
       { tipo: 'imagen', src: '/proyectos/paisajismo/14.jpeg' },
       { tipo: 'imagen', src: '/proyectos/paisajismo/15.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/paisajismo/16.jpeg' },
       
     ]
   },
@@ -52,6 +53,9 @@ const SERVICIOS_DATA = [
       { tipo: 'imagen', src: '/proyectos/pintura/6.jpeg' },
       { tipo: 'imagen', src: '/proyectos/pintura/7.jpeg' },
       { tipo: 'imagen', src: '/proyectos/pintura/8.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/9.jpg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/10.jpg' },
+      { tipo: 'imagen', src: '/proyectos/pintura/11.jpg' },
 
     ]
   },
@@ -65,6 +69,7 @@ const SERVICIOS_DATA = [
       { tipo: 'imagen', src: '/proyectos/pasto-sintetico/3.jpeg' },
       { tipo: 'imagen', src: '/proyectos/pasto-sintetico/4.jpeg' },
       { tipo: 'imagen', src: '/proyectos/pasto-sintetico/5.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-sintetico/6.jpg' },
 
     ]
   },
@@ -83,6 +88,12 @@ const SERVICIOS_DATA = [
       { tipo: 'imagen', src: '/proyectos/pasto-natural/8.jpeg' },
       { tipo: 'imagen', src: '/proyectos/pasto-natural/9.jpeg' },
       { tipo: 'imagen', src: '/proyectos/pasto-natural/10.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/11.jpg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/12.jpg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/13.jpg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/14.jpg' },
+      { tipo: 'imagen', src: '/proyectos/pasto-natural/15.jpg' },
+      
 
     ]
   },
@@ -98,7 +109,8 @@ const SERVICIOS_DATA = [
       { tipo: 'imagen', src: '/proyectos/poda/5.jpeg' },
       { tipo: 'imagen', src: '/proyectos/poda/6.jpeg' },
       { tipo: 'imagen', src: '/proyectos/poda/7.jpeg' },
-
+      { tipo: 'imagen', src: '/proyectos/poda/8.jpg' },
+      { tipo: 'imagen', src: '/proyectos/poda/9.jpg' },
     ]
   },
   {
@@ -115,7 +127,10 @@ const SERVICIOS_DATA = [
       { tipo: 'imagen', src: '/proyectos/herreria/7.jpeg' },
       { tipo: 'imagen', src: '/proyectos/herreria/8.jpeg' },
       { tipo: 'imagen', src: '/proyectos/herreria/9.jpeg' },
-      { tipo: 'imagen', src: '/proyectos/herreria/10.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/10.jpeg'},
+      { tipo: 'imagen', src: '/proyectos/herreria/11.jpg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/12.jpg' },
+      { tipo: 'imagen', src: '/proyectos/herreria/13.jpg' },
 
     ]
   },
@@ -124,23 +139,30 @@ const SERVICIOS_DATA = [
     portada: '/proyectos/albanileria/1.jpeg', // <- Cambia por el nombre real
     tipoPortada: 'imagen',
     galeria: [
-      
+      { tipo: 'imagen', src: '/proyectos/albanileria/1.jpg' },
+      { tipo: 'imagen', src: '/proyectos/albanileria/2.jpg' },
+      { tipo: 'imagen', src: '/proyectos/albanileria/3.jpg' },
+      { tipo: 'imagen', src: '/proyectos/albanileria/4.jpg' },
+      { tipo: 'imagen', src: '/proyectos/albanileria/5.jpg' },
+
     ]
   },
-  {
+  /*{
     categoria: 'Fumigación',
     portada: '/proyectos/fumigacion/1.jpeg', // <- Cambia por el nombre real
     tipoPortada: 'imagen',
     galeria: [
       
     ]
-  },
+  },*/
   {
     categoria: 'Impermeabilización',
     portada: '/proyectos/impermeabilizacion/1.jpeg', // <- Cambia por el nombre real
-    tipoPortada: 'imagen',
+    tipoPortada: 'video',
     galeria: [
-      
+      { tipo: 'video', src: '/proyectos/impermeabilizacion/1.mp4' },
+      { tipo: 'video', src: '/proyectos/impermeabilizacion/2.mp4' },
+      { tipo: 'video', src: '/proyectos/impermeabilizacion/3.mp4' },
     ]
   },
   {
@@ -153,15 +175,23 @@ const SERVICIOS_DATA = [
       { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/3.jpeg' },
       { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/4.jpeg' },
       { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/5.jpeg' },
+      { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/6.jpg' },
+      { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/7.jpg' },
+      { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/8.jpg' },
+      { tipo: 'imagen', src: '/proyectos/limpieza-terrenos/9.jpg' },
+
 
     ]
   },
   {
     categoria: 'Sistema de Riego',
     portada: '/proyectos/riego/1.jpeg', // <- Cambia por el nombre real
-    tipoPortada: 'imagen',
+    tipoPortada: 'video',
     galeria: [
-      
+      { tipo: 'video', src: '/proyectos/riego/1.mp4' },
+      { tipo: 'video', src: '/proyectos/riego/2.mp4' },
+      { tipo: 'video', src: '/proyectos/riego/3.mp4' },
+      { tipo: 'video', src: '/proyectos/riego/4.mp4' },
     ]
   }
 ];
@@ -228,7 +258,7 @@ export default function Gallery() {
         
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Nuestros Proyectos</h2>
-          <div className="flex relative z-30 overflow-x-auto pb-4 justify-start md:justify-center gap-2 hide-scrollbar">
+          <div className="flex flex-wrap justify-center items-center gap-3 mb-10">
             {categorias.map(categoria => (
               <button
                 key={categoria}
